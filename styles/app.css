@@ -1,0 +1,86 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #263238; /* Deep Blue */
+    color: #ffffff; /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #263238; /* Deep Blue */
+}
+
+/* Services Section Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #625117; /* Soft Gold */
+    color: #263238; /* Deep Blue */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+address a {
+    color: #263238; /* Deep Blue */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #263238; /* Deep Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design - Adjust styles for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
