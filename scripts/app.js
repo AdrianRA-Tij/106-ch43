@@ -19,6 +19,7 @@ function printNumbers()
         if (i!= 7 && i!= 13)
         {
             console.log(i);
+            console.log("hello there");
         }
     }
     for (let i = 0; i < numbers.length; i++)
