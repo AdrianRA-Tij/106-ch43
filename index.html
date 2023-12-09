@@ -33,18 +33,28 @@
 
           <div class="mb-3">
               <label class="form-label">Start date</label>
-              <input type="text" class="form-control" id="txtTitle">
+              <input type="date" class="form-control" id="selDate">
           </div>
 
           <div class="mb-3">
               <label class="form-label">Status</label>
-              <input type="text" class="form-control" id="txtTitle">
+              <select class="form-control" id="selStatus">
+                <option>New</option>
+                <option>In progress</option>
+                <option>Completed</option>
+                <option>Cancelled</option>
+              </select>
           </div>
 
           <div class="mb-3">
               <label class="form-label">Budget</label>
-              <input type="text" class="form-control" id="txtTitle">
+              <input type="number" class="form-control" id="numBudget">
           </div>
+          <div>
+            <button class="btn btn-dark" id="btnAdd">Add</button>
+          </div>
+
+
           
 
 
@@ -60,7 +70,11 @@
         budget        
      -->
     </main>
+    
+    <script src="./scripts/task.js"></script>
     <script src="./scripts/appServer.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </body>
 </html>
 
